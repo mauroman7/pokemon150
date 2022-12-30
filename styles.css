@@ -73,3 +73,34 @@ text-align: center;
       transform: scale(1);
   }
 }
+
+.buttons {
+  margin: 35px;
+  text-align:center;
+}
+
+#form {
+  max-width: 60%;
+  background-color: whitesmoke;
+  margin: 8px;
+  font-size: 15px;
+  border: 2px solid rgb(0, 252, 84);
+  border-radius: 8px;
+}
+
+#form:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+#buttonsearch {
+  background-color: rgb(0, 252, 84);
+  color: rgb(15, 1, 1);
+  border-radius: 8px;
+}
+
+#buttonsearch:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
